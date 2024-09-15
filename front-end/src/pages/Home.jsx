@@ -4,10 +4,11 @@ import Header from "../components/Header";
 // import RenderImages from "../components/RenderImages";
 import RenderImagesRetangle from "../components/RenderImagesRetangle";
 import RealSideBar from "../components/RealSideBar";
-import img1 from "../images/img-test.jpg";
+import imgWhite from '../images/red-texture.jpg'
+/* import img1 from "../images/img-test.jpg";
 import imgRetangle from "../images/model1.jpg";
 import model2 from "../images/Model2.jpg";
-import model3 from "../images/model3.jpg";
+import model3 from "../images/model3.jpg"; */
 import '../styles/pages/Home.css';
 
 function Home() {
@@ -19,7 +20,7 @@ function Home() {
 
   const imagesDEMO = [
     {
-      src: imgRetangle,
+      src: imgWhite,
       type: 'retangle',
       width: 359,
       height: 221,
@@ -36,7 +37,7 @@ function Home() {
       textTitleAlign: 'center',
     },
     {
-      src: model2,
+      src: imgWhite,
       type: 'square',
       width: 359,
       height: 320,
@@ -53,7 +54,7 @@ function Home() {
       textTitleAlign: 'center',
     },
     {
-      src: img1,
+      src: imgWhite,
       type: 'circle',
       centerX: 359 / 2,
       centerY: (359 - 123) / 2,
@@ -73,7 +74,7 @@ function Home() {
       textTitleAlign: 'center',
     },
     {
-      src: model3,
+      src: imgWhite,
       type: 'circle',
       centerX: 359 - 51.7 / 1.3,
       centerY: (359 - 129) / 2,

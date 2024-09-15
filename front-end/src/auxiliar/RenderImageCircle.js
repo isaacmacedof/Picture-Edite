@@ -5,6 +5,9 @@ export default function handleGerarImagemCircle(pic, foto, nameTrue, title) {
     canvas.height = 359; // Ajuste conforme necessário
     const context = canvas.getContext('2d');
 
+    context.fillStyle = 'white'; // Cor do fundo
+    context.fillRect(0, 0, canvas.width, canvas.height);
+
     // Carregue a imagem padrão com o círculo branco
     const imagemPadrao = new Image();
     imagemPadrao.src = pic.src; // Substitua pelo caminho da sua imagem padrão
