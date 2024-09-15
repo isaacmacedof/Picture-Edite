@@ -4,7 +4,8 @@ import Header from "../components/Header";
 // import RenderImages from "../components/RenderImages";
 import RenderImagesRetangle from "../components/RenderImagesRetangle";
 import RealSideBar from "../components/RealSideBar";
-import imgWhite from '../images/red-texture.jpg'
+import imgWhite from '../images/fundo.jpg'
+import imgRed from '../images/red-texture.jpg'
 /* import img1 from "../images/img-test.jpg";
 import imgRetangle from "../images/model1.jpg";
 import model2 from "../images/Model2.jpg";
@@ -20,7 +21,7 @@ function Home() {
 
   const imagesDEMO = [
     {
-      src: imgWhite,
+      src: imgRed,
       type: 'retangle',
       width: 359,
       height: 221,
@@ -37,7 +38,7 @@ function Home() {
       textTitleAlign: 'center',
     },
     {
-      src: imgWhite,
+      src: imgRed,
       type: 'square',
       width: 359,
       height: 320,
